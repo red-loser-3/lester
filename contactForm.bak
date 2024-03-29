@@ -1,0 +1,42 @@
+<!DOCTYPE html
+     PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'
+     'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
+<head>
+<title>The Lester Family: Contact Sue</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link type='text/css' rel='stylesheet' href='style.css' />
+</head>
+
+<body class='contact'>
+
+<h5>Send a message to Sue:</h5>
+<form action="http://www.maindee.com/lester/NateMail.php" method="post" style="background-color:lightblue;padding:1em;border:1px solid navy;margin-left:10%;margin-right:10%;">
+<input type="hidden" name="recipient" value="0">
+<input type="hidden" name="subject" value="Re: Lester Family Tree (via Website)">
+<input type="hidden" name="email_only" value="email">
+<input type="hidden" name="sender_email" value="email">
+<input type="hidden" name="sender_name" value="name">
+<input type="hidden" name="link_url" value="http://www.maindee.com/lester/">
+<input type="hidden" name="link_text" value="Return to the Lester Family Home Page">
+<input type="hidden" name="recipient_name" value="Sue Lester">
+
+<label for="name">Your Name: </label><input type="text" name="name" size="25" /><br />
+<br />
+<label for="email">Your Email address: </label><input type="text" name="email" size="25" />
+
+<br /><br />
+<label for="message">Message:</label>
+<br />
+<textarea rows="8" cols="60" name="message">
+</textarea>
+<br />
+<br />
+<input type="submit" value="Send" style="color:white;background-color:navy;font-weight:bold;"/>
+
+</form>
+
+<div class='links'>[<a href="http://www.maindee.com/lester/">Return to the Lester Home Page]</a>]</div>
+
+</body>
+</html>

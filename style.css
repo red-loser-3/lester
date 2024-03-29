@@ -1,0 +1,100 @@
+/*
+Add body classes: home, tree, directory, relatives, book,
+transcripts . Consolidate into one single stylesheet. 
+*/
+
+body {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color : navy;
+	font-size : 100%;
+	background : white;
+}
+hr {
+	 color: navy;
+	 background-color: black;
+	 border: 0;
+	 height: 1px;
+} 			
+.banner {
+	background-color : navy;
+	width : 100%;
+	color : white;
+}
+.siteTitle {
+	 float: left;
+	 color: white;
+	 background-color: navy;
+	 font-family: Arial, Helvetica, sans-serif;
+	font-size : medium;
+	font-weight:bold;
+ }
+.siteSearch {
+	float : right;
+	text-align : right;
+	background : navy;
+}
+.searchForm {
+	margin-bottom : 0px;
+	margin-top : 0px;
+}
+.searchInput{
+	border : 1px solid navy;
+	padding-bottom : 2px;
+	padding-left : 2px;
+}
+.searchButton {
+	color : white;
+	background-color : navy;
+	border : 1px solid white;
+}
+.navbar {
+	background-color : navy;
+	width : 100%;
+	color : white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size : 12px;
+	font-weight: bold;
+	text-align : center;
+}
+div a:link, div a:visited, div a:active, div a:focus {
+	text-decoration : none;
+	color : white;
+}
+
+span a:link, span a:visited, span a:active, span a:focus {
+	text-decoration : underline;
+	color : white
+}
+span a:hover {
+	background : white;
+	color : navy;
+	text-decoration : none;
+}
+div a:hover {
+	background : white;
+	color : navy;
+}
+.frame {
+	border : 1px solid black;
+}
+h2 {
+	text-align:center;
+}
+.intro {
+	margin-left:10%; margin-right:10%;
+}
+div.intro a:link, div.intro a:visited, div.intro a:active, div.intro a:focus {
+	text-decoration : underline;
+	color : blue;
+}
+div.links{text-align:center;font-size:80%;}
+div.links a:link, div.links a:visited, div.lilnks a:active, div.links a:focus {
+	text-decoration : underline;
+	color : blue;
+}
+body.home div p{font-size:90%;}
+body.tree table td{font-size:90%;}
+body.directory table td{font-size:90%;}
+body.relatives table td{font-size:90%;}
+.author{text-align:center;font-style:italic;margin-bottom:2em;}
